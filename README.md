@@ -33,6 +33,7 @@
 9 (final): to finaly run Omega `python omega_fixed.py` looks like `(.venv) C:\Users\You\Desktop\Omega>python omega_fixed.py` 
 
 --------------------------------- Fixes ---------------------------------
+
 Fix 1: python -m pip install --force-reinstall cffi
 Fix 2: python -m pip install --force-reinstall pywin32
 Fix 3: python .venv\Scripts\pywin32_postinstall.py -install (this is connected to Fix 2)
