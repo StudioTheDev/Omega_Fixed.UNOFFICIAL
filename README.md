@@ -22,23 +22,29 @@
 
 **Steps (Updated from experience)**
 1. Disable Find My on your device. This is required to restore the partial backup, you can re-enable it after you're done.
+
 2. Connect your device to your computer via USB (Keeped plugged in the whole time).
+
 3. Go on your pc and install [Python 3.12 (recommended)](https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US).
+
 4. Open CMD and type `cd /d "C:\Users\You\Desktop\omega-version-gate"` and hit enter.
+
 5. type this `python -m venv .venv`
+
 6. and this `.venv\Scripts\activate` the CMD should look like this `(.venv) C:\Users\You\Desktop\Omega>`
+
 7. after your done run this `python -m pip install --upgrade pip` and should look like this `(.venv) C:\Users\You\Desktop\Omega>python -m pip install --upgrade pip`
+
 8. then install `click` which is this command `python -m pip install -U pymobiledevice3 click`
+
 (Optional Recommended Step): this is to make sure your phone is connected to pymobiledevice `pymobiledevice3 usbmux list` if your phone is listed your good to move onto the next step.
+
 9 (final): to finaly run Omega `python omega_fixed.py` looks like `(.venv) C:\Users\You\Desktop\Omega>python omega_fixed.py` 
 
 --------------------------------- Fixes ---------------------------------
-
-Fix 1: `python -m pip install --force-reinstall cffi`
-
-Fix 2: `python -m pip install --force-reinstall pywin32`
-
-Fix 3: `python .venv\Scripts\pywin32_postinstall.py -install `(this is connected to Fix 2)
+Fix 1: python -m pip install --force-reinstall cffi
+Fix 2: python -m pip install --force-reinstall pywin32
+Fix 3: python .venv\Scripts\pywin32_postinstall.py -install (this is connected to Fix 2)
 
 note: make sure it's like `(.venv) C:\Users\You\Desktop\Omega>python (Whatever command you run)`
 
@@ -57,4 +63,4 @@ This tool replaces the databases with directories of the same name, which causes
 - [Skadz](https://github.com/skadz108) - developer
 
 ### Unoffical Credits
-- [StudioTheDev](https://github.com/StudioTheDev) - The Unofficial Owner (fixer)
+- [StudioTheDev](https://github.com/StudioTheDev) - A random ahh kid ✌️ (fixer)
